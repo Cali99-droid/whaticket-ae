@@ -217,7 +217,7 @@ const LoggedInLayout = ({ children }) => {
             noWrap
             className={classes.title}
           >
-            ASELUC
+            ASELUC - Asociación Educativa Luz y Ciencia
           </Typography>
           {user.id && <NotificationsPopOver />}
 

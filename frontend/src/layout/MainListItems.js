@@ -74,7 +74,7 @@ const MainListItems = (props) => {
     <div onClick={drawerClose}>
       <ListItemLink
         to="/"
-        primary="Dashboard ese"
+        primary="Dashboard"
         icon={<DashboardOutlinedIcon />}
       />
 
