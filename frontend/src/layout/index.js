@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     background:
       "linear-gradient(to right, #0045aa 0%,#4565d0 31%,#7087f7 64%,#7db9e8 100%); ",
     color: "#FFF",
-    height: "60px",
+    height: "30px",
   },
   toolbarIcon: {
     display: "flex",
@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
   },
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
-    height: "60px",
+    height: "30px",
     transition: theme.transitions.create(["width", "margin"], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,

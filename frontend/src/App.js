@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Routes from "./routes";
 import "react-toastify/dist/ReactToastify.css";
-
+import green from "@material-ui/core/colors/green";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import { ptBR } from "@material-ui/core/locale";
 
@@ -21,7 +21,10 @@ const App = () => {
         },
       },
       palette: {
-        primary: { main: "#2576d2" },
+        primary: { main: "#0045AA" },
+        secondary: {
+          main: "#EC508B",
+        },
       },
     },
     locale
